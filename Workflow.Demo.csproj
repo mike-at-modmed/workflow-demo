@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project=".\Version.targets" />
+  
+    <PropertyGroup>
+      <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+    <PropertyGroup>
+        <PackageReference Include="Workflow.Demo.Dependency" Version="4.8.0-dev.8" />
+    </PropertyGroup>
+  </Project>
